@@ -144,7 +144,7 @@
 										{for $var=0 to count($csvData)-1}
 											<div class="post_list">
 												<div class="post_img">
-													<a href="{$singleLink[$var]}"><img alt="main_image" src="{$img_path_array[$var][0]}"></a>
+													<a href="{$singleLink[$var]}"><img alt="main_image" src="../../uploadimages/{$img_path_array[$var][0]}"></a>
 												</div>
 												<div class="post_det">
 													{if $csvData[$var][2] == '1'}

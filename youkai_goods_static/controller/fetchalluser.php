@@ -14,7 +14,7 @@
       	 $user_id 	= $user['user_id'];
 
 
-	$data = getAllAdmin($user_id);;
+	$data = getAllAdmin($user_id);
 
 	echo json_encode(array("aaData"=>$data));
 

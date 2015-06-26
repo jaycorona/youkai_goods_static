@@ -6,7 +6,7 @@
 		
 
 		function database(){
-			return new PDO("mysql:host=localhost;dbname=db_youkaigoods","root","");
+			return new PDO("mysql:host=localhost;dbname=youkai_goods_static","root","");
 		}
 
 

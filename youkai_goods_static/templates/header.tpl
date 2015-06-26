@@ -18,7 +18,7 @@
 			font:13px/20px 'PTSansRegular', Arial, Helvetica, sans-serif;
 			}
 			body #header.sticky-header {
-			background: rgba(255,255,255,0.97) url('../../wp-content/themes/Avada/images/img/header/header_bg.png') !important;
+			background: rgba(255,255,255,0.97) url('../../uploadimages/system-images/header_bg.png') !important;
 			background-repeat: no-repeat !important;
 			/*height: 71px;*/
 			height: 60px;
@@ -36,7 +36,7 @@
 			display: block !important;
 			}
 			div#main {
-			background-image: url('../../../../wp-content/themes/Avada/images/img/home/goods_bg.png');
+			background-image: url('../../uploadimages/system-images/goods_bg.png');
 			/*background-size: contain;*/
 			margin : 0 auto 0 auto;
 			width: 100%;
@@ -127,7 +127,7 @@
 			/*margin: -3px 0 0 0 !important;*/
 			}
 			body #header.sticky-header .goods_logo a{
-			background: url('../../wp-content/themes/Avada/images/img/header/headerlogo.png');
+			background: url('../../uploadimages/system-images/headerlogo.png');
 			width: 237px;
 			height: 48px;
 			}
@@ -157,7 +157,7 @@
 			border-top:3px solid #fff;
 			}
 			div#wrapper div#main div.avada-row {
-			/*  background-image: url(/../../wp-content/themes/Avada/images/img/home/goods_bg.png); */
+			/*  background-image: url(../../uploadimages/system-images/goods_bg.png); */
 			width:980px;
 			padding-bottom: 50px;
 			max-width:980px;
@@ -173,7 +173,7 @@
 			clear: both;
 			}
 			body.home #posts-container{
-			background:url('../../wp-content/themes/Avada/images/img/home/bg_goods.png');
+			background:url('../../uploadimages/system-images/bg_goods.png');
 			background-repeat: repeat;
 			border-top: 3px solid #325DE6;
 			border-bottom: 3px solid #325DE6;
@@ -188,213 +188,213 @@
 			}
 
 			.side1{
-			background:url('../../wp-content/themes/Avada/images/img/home/side1.png');
-			width:252px;
-			height:143px;
-			display: inline-block;
-			}
-			.page_item_menu1{
-			background:url('../../wp-content/themes/Avada/images/img/home/menu1.png');
-			width:239px;
-			height:39px;
-			display: inline-block;
-			}
+    background:url('../../uploadimages/system-images/side1.png');
+    width:252px;
+    height:143px;
+    display: inline-block;
+}
+.page_item_menu1{
+    background:url('../../uploadimages/system-images/menu1.png');
+    width:239px;
+    height:39px;
+    display: inline-block;
+}
+.page_item_menu1:hover{
+    background:url('../../uploadimages/system-images/menu_hover1.png');
+    cursor:pointer;
+}
+.page_item_menu1.current{
+    background:url('../../uploadimages/system-images/menu_hover1.png');
+    cursor:pointer;
+}
+.page_item_menu2{
+    background:url('../../uploadimages/system-images/menu2.png');
+    width:239px;
+    height:39px;
+    display: inline-block;
+}
+.page_item_menu2.current{
+    background:url('../../uploadimages/system-images/menu_hover2.png');
+}
+.page_item_menu2:hover{
+    background:url('../../uploadimages/system-images/menu_hover2.png');
+    cursor:pointer;
+}
 
-			.page_item_menu1.current{
-			background:url('../../wp-content/themes/Avada/images/img/home/menu_hover1.png');
-			cursor:pointer;
-			}
+/* 3 Card*/
+.page_item_menu3{
+    background:url('../../uploadimages/system-images/menu3card.png');
+    width:239px;
+    height:39px;
+    display: inline-block;
+}
 
-			.page_item_menu1:hover{
-			background:url('../../wp-content/themes/Avada/images/img/home/menu_hover1.png');
-			cursor:pointer;
-			}
+.page_item_menu3.current{
+    background:url('../../uploadimages/system-images/menu_hover3card.png');
+}
+.page_item_menu3:hover{
+    background:url('../../uploadimages/system-images/menu_hover3card.png');
+    cursor:pointer;
+}
+/*End 3 Card */
 
-			.page_item_menu2{
-			background:url('../../wp-content/themes/Avada/images/img/home/menu2.png');
-			width:239px;
-			height:39px;
-			display: inline-block;
-			}
 
-			.page_item_menu2.current{
-			background:url('../../wp-content/themes/Avada/images/img/home/menu_hover2.png');
-			}
+.page_item_menu4{
+    background:url('../../uploadimages/system-images/menu4.png');
+    width:239px;
+    height:39px;
+    display: inline-block;
+}
+.page_item_menu4.current{
+    background:url('../../uploadimages/system-images/menu_hover4.png');
+}
+.page_item_menu4:hover{
+    background:url('../../uploadimages/system-images/menu_hover4.png');
+    cursor:pointer;
+}
 
-			.page_item_menu2:hover{
-			background:url('../../wp-content/themes/Avada/images/img/home/menu_hover2.png');
-			cursor:pointer;
-			}
+/*5 Candy toys */
+.page_item_menu5{
+    background:url('../../uploadimages/system-images/menu5candytoys.png');
+    width:239px;
+    height:39px;
+    display: inline-block;
+}
+.page_item_menu5.current{
+    background:url('.../../uploadimages/system-images/menu_hover5candytoys.png');
+}
+.page_item_menu5:hover{
+    background:url('../../uploadimages/system-images/menu_hover5candytoys.png');
+    cursor:pointer;
+}
+/*End of 5 Candy toys */
 
-			.page_item_menu3{
-			background:url('../../wp-content/themes/Avada/images/img/home/menu3.png');
-			width:239px;
-			height:39px;
-			display: inline-block;
-			}
 
-			.page_item_menu3.current{
-			background:url('../../wp-content/themes/Avada/images/img/home/menu_hover3.png');
-			}
 
-			.page_item_menu3:hover{
-			background:url('../../wp-content/themes/Avada/images/img/home/menu_hover3.png');
-			cursor:pointer;
-			}
+/* 6 Pastry */
+.page_item_menu6{
+    background:url('../../uploadimages/system-images/menu6pastry.png');
+    width:239px;
+    height:39px;
+    display: inline-block;
+}
+.page_item_menu6.current{
+    background:url('../../uploadimages/system-images/menu_hover6pastry.png');
+}
+.page_item_menu6:hover{
+    background:url('../../uploadimages/system-images/menu_hover6pastry.png');
+    cursor:pointer;
+}
+/*End of 6 Pastry */
 
-			.page_item_menu4{
-			background:url('../../wp-content/themes/Avada/images/img/home/menu4.png');
-			width:239px;
-			height:39px;
-			display: inline-block;
-			}
 
-			.page_item_menu4.current{
-			background:url('../../wp-content/themes/Avada/images/img/home/menu_hover4.png');
-			}
+.page_item_menu7{
+    background:url('../../uploadimages/system-images/menu7.png');
+    width:239px;
+    height:39px;
+    display: inline-block;
+}
+.page_item_menu7.current{
+    background:url('../../uploadimages/system-images/menu_hover7.png');
+}
+.page_item_menu7:hover{
+    background:url('../../uploadimages/system-images/menu_hover7.png');
+    cursor:pointer;
+}
 
-			.page_item_menu4:hover{
-			background:url('../../wp-content/themes/Avada/images/img/home/menu_hover4.png');
-			cursor:pointer;
-			}
+/* 8 Apparel, fashion accessories */
+.page_item_menu8{
+    background:url('../../uploadimages/system-images/menu8afc.png');
+    width:239px;
+    height:39px;
+    display: inline-block;
+}
 
-			.page_item_menu5{
-			background:url('../../wp-content/themes/Avada/images/img/home/menu5.png');
-			width:239px;
-			height:39px;
-			display: inline-block;
-			}
+.page_item_menu8.current{
+    background:url('../../uploadimages/system-images/menu_hover8afc.png');
+}
+.page_item_menu8:hover{
+    background:url('../../uploadimages/system-images/menu_hover8afc.png');
+    cursor:pointer;
+}
+/* End of 8 Apparel, fashion accessories */
 
-			.page_item_menu5.current{
-			background:url('../../wp-content/themes/Avada/images/img/home/menu_hover5.png');
-			}
 
-			.page_item_menu5:hover{
-			background:url('../../wp-content/themes/Avada/images/img/home/menu_hover5.png');
-			cursor:pointer;
-			}
 
-			.page_item_menu6{
-			background:url('../../wp-content/themes/Avada/images/img/home/menu6.png');
-			width:239px;
-			height:39px;
-			display: inline-block;
-			}
+.page_item_menu9{
+    background:url('../../uploadimages/system-images/menu9.png');
+    width:239px;
+    height:39px;
+    display: inline-block;
+}
+.page_item_menu9.current{
+    background:url('../../uploadimages/system-images/menu_hover9.png');
+}
+.page_item_menu9:hover{
+    background:url('../../mages/img/home/menu_hover9.png');
+    cursor:pointer;
+}
+.page_item_menu10{
+    background:url('../../uploadimages/system-images/menu10.png');
+    width:239px;
+    height:39px;
+    display: inline-block;
+}
+.page_item_menu10.current{
+    background:url('../../uploadimages/system-images/menu_hover10.png');
+}
+.page_item_menu10:hover{
+    background:url('../../uploadimages/system-images/menu_hover10.png');
+    cursor:pointer;
+}
 
-			.page_item_menu6.current{
-			background:url('../../wp-content/themes/Avada/images/img/home/menu_hover6.png');
-			}
 
-			.page_item_menu6:hover{
-			background:url('../../wp-content/themes/Avada/images/img/home/menu_hover6.png');
-			cursor:pointer;
-			}
 
-			.page_item_menu7{
-			background:url('../../wp-content/themes/Avada/images/img/home/menu7.png');
-			width:239px;
-			height:39px;
-			display: inline-block;
-			}
+/* 7 Food and Beverage */
 
-			.page_item_menu7.current{
-			background:url('../../wp-content/themes/Avada/images/img/home/menu_hover7.png');
-			}
+.page_item_menu11{
+    background:url('../../uploadimages/system-images/menu11fab.png');
+    width:239px;
+    height:39px;
+    display: inline-block;
+}
+.page_item_menu11.current,.page_item_menu11.slug{
+    background:url('../../uploadimages/system-images/menu_hover11fab.png');
+}
+.page_item_menu11:hover{
+    background:url('../../uploadimages/system-images/menu_hover11fab.png');
+    cursor:pointer;
+}
+/* End of 7 Food and Beverage */
 
-			.page_item_menu7:hover{
-			background:url('../../wp-content/themes/Avada/images/img/home/menu_hover7.png');
-			cursor:pointer;
-			}
 
-			.page_item_menu8{
-			background:url('../../wp-content/themes/Avada/images/img/home/menu8.png');
-			width:239px;
-			height:39px;
-			display: inline-block;
-			}
+/* 11 Other */
+.page_item_menu12{
+    background:url('../../uploadimages/system-images/menu12other.png');
+    width:239px;
+    height:39px;
+    display: inline-block;
+}
+.page_item_menu12.current,.page_item_menu12.slug{
+    background:url('../../uploadimages/system-images/menu_hover12other.png');
+}
+.page_item_menu12:hover{
+    background:url('../../uploadimages/system-images/menu_hover12other.png');
+    cursor:pointer;
+}
+/* End of 11 other */
 
-			.page_item_menu8.current{
-			background:url('../../wp-content/themes/Avada/images/img/home/menu_hover8.png');
-			}
 
-			.page_item_menu8:hover{
-			background:url('../../wp-content/themes/Avada/images/img/home/menu_hover8.png');
-			cursor:pointer;
-			}
 
-			.page_item_menu9{
-			background:url('../../wp-content/themes/Avada/images/img/home/menu9.png');
-			width:239px;
-			height:39px;
-			display: inline-block;
-			}
 
-			.page_item_menu9.current{
-			background:url('../../wp-content/themes/Avada/images/img/home/menu_hover9.png');
-			}
 
-			.page_item_menu9:hover{
-			background:url('../../wp-content/themes/Avada/images/img/home/menu_hover9.png');
-			cursor:pointer;
-			}
 
-			.page_item_menu10{
-			background:url('../../wp-content/themes/Avada/images/img/home/menu10.png');
-			width:239px;
-			height:39px;
-			display: inline-block;
-			}
 
-			.page_item_menu10.current{
-			background:url('../../wp-content/themes/Avada/images/img/home/menu_hover10.png');
-			}
 
-			.page_item_menu10:hover{
-			background:url('../../wp-content/themes/Avada/images/img/home/menu_hover10.png');
-			cursor:pointer;
-			}
 
-			.page_item_menu11{
-			background:url('../../wp-content/themes/Avada/images/img/home/menu11.png');
-			width:239px;
-			height:39px;
-			display: inline-block;
-			}
-
-			.page_item_menu11.current{
-			background:url('../../wp-content/themes/Avada/images/img/home/menu_hover11.png');
-			}
-
-			.page_item_menu11:hover{
-			background:url('../../wp-content/themes/Avada/images/img/home/menu_hover11.png');
-			cursor:pointer;
-			}
-
-			.page_item_menu12{
-			background:url('../../wp-content/themes/Avada/images/img/home/menu12.png');
-			width:239px;
-			height:39px;
-			display: inline-block;
-			}
-
-			.page_item_menu12.current,.page_item_menu12.slug{
-			background:url('../../wp-content/themes/Avada/images/img/home/menu_hover12.png');
-			}
-
-			.page_item_menu12:hover{
-			background:url('../../wp-content/themes/Avada/images/img/home/menu_hover12.png');
-			cursor:pointer;
-			}
-
-			.nkb{
-			margin-top:40px;
-			background: url('../../wp-content/themes/Avada/images/img/home/side_banner_test.gif');
-			width: 241px;
-			height: 103px;
-			}
 			.nyan{
 			margin-top:40px;
-			background: url('../../wp-content/themes/Avada/images/img/home/jibanyan.png');
+			background: url('../../uploadimages/system-images/jibanyan.png');
 			width: 249px;
 			height: 288px;
 			}
@@ -402,10 +402,6 @@
 			margin-top: 10px;
 			}
 
-			.page_item_menu1.current{
-			background:url('../../wp-content/themes/Avada/images/img/home/menu_hover1.png');
-			cursor:pointer;
-			}
 			body.home div#wrapper div#main div.avada-row div#sidebar {
 			/* margin-top: 12px;  */
 			float:left !important;
@@ -478,7 +474,7 @@
 			}
 
 			#footer{
-			background: url('../../wp-content/themes/Avada/images/img/footer/footer.png') !important;
+			background: url('../../uploadimages/system-images/footer.png') !important;
 			width: 980px;
 			margin: 0 auto;
 			border-top: 0px !important;
@@ -505,7 +501,7 @@
 			margin : 0 auto 0 auto;
 			width: 100%;
 			/* 	max-width: 1349px !important; */
-			background-image:url('../../wp-content/themes/Avada/images/img/home/goods_bg.png');
+			background-image:url('../../uploadimages/system-images/goods_bg.png');
 			}
 
 			.post{
@@ -748,21 +744,21 @@
 			height:23px;
 			}
 			.cat_nopost{
-			background: url('../../wp-content/themes/Avada/images/img/home/bg_goods.png');
+			background: url('../../uploadimages/system-images/bg_goods.png');
 			border-top: 3px solid #325DE6;
 			border-bottom: 3px solid #325DE6;
 			text-align:center;
 			padding:107px;
 			}
 			.nopost_img{
-			background: url('../../wp-content/themes/Avada/images/img/category/item2.png');
+			background: url('../../uploadimages/system-images/item2.png');
 			width: 418px;
 			height: 310px;
 			display: inline-block;
 			}
 			/*Menu*/
 			.side1{
-			background:url('../../wp-content/themes/Avada/images/img/home/side1.png');
+			background:url('../../uploadimages/system-images/side1.png');
 			width:252px;
 			height:143px;
 			display: inline-block;
@@ -782,7 +778,7 @@
 			width: 352px;
 			}
 			html body.page div#wrapper div#main div.avada-row {
-			/* background-image: url("http://youkai-world.com/../../wp-content/themes/Avada/images/img/home/goods_bg.png"); */
+			/* background-image: url("http://youkai-world.com/../../uploadimages/system-images/goods_bg.png"); */
 			padding-bottom:50px;
 			width:980px;
 			max-width:980px;
@@ -803,7 +799,7 @@
 			float: right;
 			}
 			div.display_type_1   {
-			background-image: url('../../wp-content/themes/Avada/images/img/category/cat_bg.png');
+			background-image: url('../../uploadimages/system-images/cat_bg.png');
 			width:323px;
 			height: 174px;
 			position: relative;
@@ -858,289 +854,26 @@
 			}
 			#main #sidebar{
 			background-color:transparent;
-			
-			//fancy box css style block
-			/*! fancyBox v2.1.5 fancyapps.com | fancyapps.com/fancybox/#license */
-			.fancybox-wrap,
-			.fancybox-skin,
-			.fancybox-outer,
-			.fancybox-inner,
-			.fancybox-image,
-			.fancybox-wrap iframe,
-			.fancybox-wrap object,
-			.fancybox-nav,
-			.fancybox-nav span,
-			.fancybox-tmp
-			{
-				padding: 0;
-				margin: 0;
-				border: 0;
-				outline: none;
-				vertical-align: top;
 			}
 			
-			.fancybox-wrap {
-				position: absolute;
-				top: 0;
-				left: 0;
-				z-index: 8020;
-			}
-			
-			.fancybox-skin {
-				position: relative;
-				background: #f9f9f9;
-				color: #444;
-				text-shadow: none;
-				-webkit-border-radius: 4px;
-				   -moz-border-radius: 4px;
-				        border-radius: 4px;
-			}
-			
-			.fancybox-opened {
-				z-index: 8030;
-			}
-			
-			.fancybox-opened .fancybox-skin {
-				-webkit-box-shadow: 0 10px 25px rgba(0, 0, 0, 0.5);
-				   -moz-box-shadow: 0 10px 25px rgba(0, 0, 0, 0.5);
-				        box-shadow: 0 10px 25px rgba(0, 0, 0, 0.5);
-			}
-			
-			.fancybox-outer, .fancybox-inner {
-				position: relative;
-			}
-			
-			.fancybox-inner {
-				overflow: hidden;
-			}
-			
-			.fancybox-type-iframe .fancybox-inner {
-				-webkit-overflow-scrolling: touch;
-			}
-			
-			.fancybox-error {
-				color: #444;
-				font: 14px/20px "Helvetica Neue",Helvetica,Arial,sans-serif;
-				margin: 0;
-				padding: 15px;
-				white-space: nowrap;
-			}
-			
-			.fancybox-image, .fancybox-iframe {
-				display: block;
-				width: 100%;
-				height: 100%;
-			}
-			
-			.fancybox-image {
-				max-width: 100%;
-				max-height: 100%;
-			}
-			
-			#fancybox-loading, .fancybox-close, .fancybox-prev span, .fancybox-next span {
-				background-image: url('../images/fancybox_sprite.png');
-			}
-			
-			#fancybox-loading {
-				position: fixed;
-				top: 50%;
-				left: 50%;
-				margin-top: -22px;
-				margin-left: -22px;
-				background-position: 0 -108px;
-				opacity: 0.8;
-				cursor: pointer;
-				z-index: 8060;
-			}
-			
-			#fancybox-loading div {
-				width: 44px;
-				height: 44px;
-				background: url('../images/fancybox_loading.gif') center center no-repeat;
-				display:none;
-			}
-			
-			.fancybox-close {
-				position: absolute;
-				top: -18px;
-				right: -18px;
-				width: 36px;
-				height: 36px;
-				cursor: pointer;
-				z-index: 8040;
-			}
-			
-			.fancybox-nav {
-				position: absolute;
-				top: 0;
-				width: 40%;
-				height: 100%;
-				cursor: pointer;
-				text-decoration: none;
-				background: transparent url('blank.gif'); /* helps IE */
-				-webkit-tap-highlight-color: rgba(0,0,0,0);
-				z-index: 8040;
-			}
-			
-			.fancybox-prev {
-				left: 0;
-			}
-			
-			.fancybox-next {
-				right: 0;
-			}
-			
-			.fancybox-nav span {
-				position: absolute;
-				top: 50%;
-				width: 36px;
-				height: 34px;
-				margin-top: -18px;
-				cursor: pointer;
-				z-index: 8040;
-				visibility: hidden;
-			}
-			
-			.fancybox-prev span {
-				left: 10px;
-				background-position: 0 -36px;
-			}
-			
-			.fancybox-next span {
-				right: 10px;
-				background-position: 0 -72px;
-			}
-			
-			.fancybox-nav:hover span {
-				visibility: visible;
-			}
-			
-			.fancybox-tmp {
-				position: absolute;
-				top: -99999px;
-				left: -99999px;
-				visibility: hidden;
-				max-width: 99999px;
-				max-height: 99999px;
-				overflow: visible !important;
-			}
-			
-			/* Overlay helper */
-			
-			.fancybox-lock {
-			    overflow: hidden !important;
-			    width: auto;
-			}
-			
-			.fancybox-lock body {
-			    overflow: hidden !important;
-			}
-			
-			.fancybox-lock-test {
-			    overflow-y: hidden !important;
-			}
-			
-			.fancybox-overlay {
-				position: absolute;
-				top: 0;
-				left: 0;
-				overflow: hidden;
-				display: none;
-				z-index: 8010;
-				background: url('../images/fancybox_overlay.png');
-			}
-			
-			.fancybox-overlay-fixed {
-				position: fixed;
-				bottom: 0;
-				right: 0;
-			}
-			
-			.fancybox-lock .fancybox-overlay {
-				overflow: auto;
-				overflow-y: scroll;
-			}
-			
-			/* Title helper */
-			
-			.fancybox-title {
-				visibility: hidden;
-				font: normal 13px/20px "Helvetica Neue",Helvetica,Arial,sans-serif;
-				position: relative;
-				text-shadow: none;
-				z-index: 8050;
-			}
-			
-			.fancybox-opened .fancybox-title {
-				visibility: visible;
-			}
-			
-			.fancybox-title-float-wrap {
-				position: absolute;
-				bottom: 0;
-				right: 50%;
-				margin-bottom: -35px;
-				z-index: 8050;
-				text-align: center;
-			}
-			
-			.fancybox-title-float-wrap .child {
-				display: inline-block;
-				margin-right: -100%;
-				padding: 2px 20px;
-				background: transparent; /* Fallback for web browsers that doesn't support RGBa */
-				background: rgba(0, 0, 0, 0.8);
-				-webkit-border-radius: 15px;
-				   -moz-border-radius: 15px;
-				        border-radius: 15px;
-				text-shadow: 0 1px 2px #222;
-				color: #FFF;
-				font-weight: bold;
-				line-height: 24px;
-				white-space: nowrap;
-			}
-			
-			.fancybox-title-outside-wrap {
-				position: relative;
-				margin-top: 10px;
-				color: #fff;
-			}
-			
-			.fancybox-title-inside-wrap {
-				padding-top: 10px;
-			}
-			
-			.fancybox-title-over-wrap {
-				position: absolute;
-				bottom: 0;
-				left: 0;
-				color: #fff;
-				padding: 10px;
-				background: #000;
-				background: rgba(0, 0, 0, .8);
-			}
-			
-			/*Retina graphics!*/
-			@media only screen and (-webkit-min-device-pixel-ratio: 1.5),
-				   only screen and (min--moz-device-pixel-ratio: 1.5),
-				   only screen and (min-device-pixel-ratio: 1.5){
-			
-				#fancybox-loading, .fancybox-close, .fancybox-prev span, .fancybox-next span {
-					background-image: url('fancybox_sprite@2x.png');
-					background-size: 44px 152px; /*The size of the normal image, half the size of the hi-res image*/
-				}
-			
-				#fancybox-loading div {
-					background-image: url('fancybox_loading@2x.gif');
-					background-size: 24px 24px; /*The size of the normal image, half the size of the hi-res image*/
-				}
-			}
-			a.fancybox-nav{
-				display:none;
-			}
-			.fancybox-close, .fancybox-prev span, .fancybox-next span {
-				display:none;
-			}
-			}
 		{/literal}
 		</style>
+
+		{literal}
+		<!-- fancybox -->
+		<script type="text/javascript" src="../../stylesheets/js/jquery-1.11.1.min.js"></script>
+		<script type="text/javascript" src="../../stylesheets/jquery.fancybox.js"></script>
+		<link rel="stylesheet" type="text/css" href="../../stylesheets/jquery.fancybox.css" media="screen" />
+		<script type="text/javascript">
+		jQuery(document).ready(function() {
+		jQuery(".fancybox-thumb").fancybox({
+				//"width":500,"height":500,"maxWidth"  : 500,"maxHeight" : 500,
+			beforeShow: function () {
+					this.width = 500;
+					this.height = 500;
+				}
+			});
+
+		});
+		</script>
+		{/literal}

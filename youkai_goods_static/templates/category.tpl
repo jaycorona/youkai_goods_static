@@ -205,116 +205,47 @@
 							<!-- public posts  -->
 							<div class="" id="public_site_container" >
 								<div id="public_site_block">
-
-									{for $var=0 to count($csvData)-1}
-										 <div class="display_type_1">
-										 	<div class="home_post_border_1">
-										 		<div id="post-goods">
-										 			<div class="post-content-container" >
-										 				<div class="post_list">
-										 					<div class="post_img">
-										 						<a href="{$singleLink[$var]}" >
-										 							<img alt="main_image" src="{$img_path_array[$var][0]}" />
-										 						</a>
-										 					</div>
-										 					<div class="catpost_right">
-											 					<div class="title_post">
-											 						<a href="{$singleLink[$var]}">{$csvData[$var][3]}</a>
+						
+	
+										{for $var=0 to count($csvData)-1}
+											 <div class="display_type_1">
+											 	<div class="home_post_border_1">
+											 		<div id="post-goods">
+											 			<div class="post-content-container" >
+											 				<div class="post_list">
+											 					<div class="post_img">
+											 						<a href="{$singleLink[$var]}" >
+											 							<img alt="main_image" src="../../uploadimages/{$img_path_array[$var][0]}" />
+											 						</a>
 											 					</div>
-											 					<div class="post-new">
-											 						{if $csvData[$var][2] == '1'}
-											 							<img alt="youkai_new_show_important" src="{$newIcon}">	
-											 						{/if}
-											 					</div>
-											 					<div class="catlower">
-											 						<div class="post-date-youkai">
-											 							<p class="single-line-meta">{$csvData[$var][6]}</p>
-											 						</div>
-											 						<div class="post-price">
-											 							{if $csvData[$var][7] != "null"}{$csvData[$var][7]}{/if}
-											 						</div>
-											 					</div>
+											 					<div class="catpost_right">
+												 					<div class="title_post">
+												 						<a href="{$singleLink[$var]}">{$csvData[$var][3]}</a>
+												 					</div>
+												 					<div class="post-new">
+												 						{if $csvData[$var][2] == '1'}
+												 							<img alt="youkai_new_show_important" src="{$newIcon}">	
+												 						{/if}
+												 					</div>
+												 					<div class="catlower">
+												 						<div class="post-date-youkai">
+												 							<p class="single-line-meta">{$csvData[$var][6]}</p>
+												 						</div>
+												 						<div class="post-price">
+												 							{if $csvData[$var][7] != "null"}{$csvData[$var][7]}{/if}
+												 						</div>
+												 					</div>
+												 				</div>
 											 				</div>
-										 				</div>
-										 			</div>
-										 			<div style="clear:both;"></div>
-													<div class="meta-info"></div>
-										 		</div>
-										 	</div>
-										 </div>
-									{/for}
-									<!-- <div class="display_type_1">
-										<div class="home_post_border_1">
-											<div id="post-goods">
-												<div class="post-content-container" >
-													<div class="post_list">
-														<div class="post_img">
-															<a href="p2218/index.html" ><img alt="main_image" src="sampol.jpg" /></a>
-														</div>
-														<div class="catpost_right">
-															<div class="title_post">
-																<a href="#">
-																ジバニャンのふわチョコモナカ														</a>
-															</div>
-															<div class="post-new">
-															<img alt="youkai_new_show_important" src="../../wp-content/themes/Avada/images/img/new_icon.png">													</div>
-															<div class="catlower">
-																<div class="post-date-youkai">
-																	<p class="single-line-meta">
-																	2015年 05月 25日発売														</p>
-																</div>
-																<div class="post-price">
-																80円(税抜)													</div>
-																<div class="post-publisher">
-																株式会社バンダイ													</div>
-															</div>
-														</div>
-													</div>
-													
-												</div>
-												<div style="clear:both;"></div>
-												<div class="meta-info"></div>
-												
-											</div>
-										</div>
-									</div> -->
+											 			</div>
+											 			<div style="clear:both;"></div>
+														<div class="meta-info"></div>
+											 		</div>
+											 	</div>
+											 </div>
+										{/for}
+								
 									
-									<!-- <div class="display_type_1">
-										<div class="home_post_border_1">
-											<div id="post-goods">
-												<div class="post-content-container" >
-													<div class="post_list">
-														<div class="post_img">
-															<a href="#" ><img alt="main_image" src="sampol.jpg" /></a>
-														</div>
-														<div class="catpost_right">
-															<div class="title_post">
-																<a href="../../p2211/index.html">
-																妖怪ウォッチ カード付折りたたみウォレット２														</a>
-															</div>
-															<div class="post-new">
-																<img alt="youkai_new_show_important" src="../../wp-content/themes/Avada/images/img/new_icon.png">
-															</div>
-															<div class="catlower">
-																<div class="post-date-youkai">
-																	<p class="single-line-meta">
-																	5月19日より順次登場予定														</p>
-																</div>
-																<div class="post-price">
-																</div>
-																<div class="post-publisher">
-																株式会社バンプレスト													</div>
-															</div>
-														</div>
-													</div>
-													
-												</div>
-												<div style="clear:both;"></div>
-												<div class="meta-info"></div>
-												
-											</div>
-										</div>
-									</div> -->
 									
 									<div class="goods_nav">
 										{if $numIndex <= 4}

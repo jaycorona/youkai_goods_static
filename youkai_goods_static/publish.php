@@ -16,9 +16,13 @@ class publish{
 	private $folderVersion;
 	
 	//constant value
-	private static $CATEGORIES = array("toy","dcd","carddas","gashapon",
+
+/*	array("toy","dcd","carddas","gashapon",
 										"pramo","candy","dailynec",
-										"fashionaccessories","prize","stationery","food");
+										"fashionaccessories","prize","stationery","food");*/
+	private static $CATEGORIES = array("toy","card","prize","candytoys",
+										"pastry","fab","afc",
+										"dailynec","stationery","other");
 	const SINGLE_FILE_NAME = 'singlePage';
 	const INDEX_FILE_NAME = 'indexPage';
 	const CATEGORY_FILE_NAME = 'categoryPage';
@@ -26,8 +30,8 @@ class publish{
 	const MAX_ITEM = 20;
 	
 	public function __construct($csvFile, $verFile = "HTML_version"){
-		include __DIR__.'/youkaiClass.php';
-		include "smarty/libs/Smarty.class.php";
+		include_once("youkaiClass.php");
+		include_once("smarty/libs/Smarty.class.php");
 		$this->smarty = new Smarty();
 		$this->smarty->template_dir = 'templates';
 		$this->smarty->compile_dir = 'cache';
@@ -35,8 +39,8 @@ class publish{
 		$this->youkaiGoods->setCSVData($this->readCSV('csv_file/'.$csvFile));
 		$this->youkaiGoods->setSingle_page_link(SELF::SINGLE_FILE_NAME, $verFile);
 		$this->link_path = $this->youkaiGoods->getBaseUrl();
-		$this->newIcon = $this->link_path."wp-content/themes/Avada/images/img/new_icon.png";
-		$this->html_file_path = dirname(__FILE__).'/HTML-Files/'.$verFile;
+		$this->newIcon = $this->link_path."uploadimages/system-images/new_icon.png";
+		$this->html_file_path = 'HTML-Files/'.$verFile;
 		$this->folderVersion = $verFile;
 		$this->generateHTML();
 	}
@@ -292,6 +296,19 @@ class publish{
 									});
 	}
 }
+
+	// assign servername
+	/*include_once("smarty/libs/Smarty.class.php");
+	$smarty = new Smarty();
+	$smarty->template_dir = 'templates';
+	$smarty->compile_dir = 'cache';
+
+	
+	$smarty->display('x.tpl');*/
+
+
+
+
 
 //please erase this, this is here for testing purpose only
 // $shit = new publish('sampleData2.csv','folderSample');

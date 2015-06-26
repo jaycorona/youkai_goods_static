@@ -22,6 +22,8 @@
 ?>
 <?php include_once("header.php"); ?>
 	<div class="jumbotron">
+        <?php  $csvfname = fetchAllCsvfile();
+        if ($csvfname!= null): ?>
 			<?php 
 
 				$directory = "../HTML-Files/";
@@ -32,8 +34,6 @@
 			 	$a 	= end($files);
 				echo 'Latest Static HTML: <a href="'.$a.'/indexPage1.html" target="_blank"><i>Click Here</i></a><br><br>';
 			 ?>
-        <?php  $csvfname = fetchAllCsvfile();
-        if ($csvfname!= null): ?>
         <span>Newest csv file:  <i style="color:#337ab7" id="newestfile">
         	<?php if ($status1['status']== 1): ?> <?=$status1['filename']?> <?php endif ?> 
          </i></span> 
@@ -86,7 +86,7 @@
 
 
 		<?php else: ?>
-		 		<div class="alert alert-danger text-center"><button type="button" class="close btn-xs" data-dismiss="alert" aria-hidden="true">&times;</button>Please Upload csv file!</div>
+		 		<div class="alert alert-info text-center"><button type="button" class="close btn-xs" data-dismiss="alert" aria-hidden="true">&times;</button>Please Upload csv file!</div>
         <?php endif ?>
 	</div>
 <?php include_once("footer.php"); ?>
